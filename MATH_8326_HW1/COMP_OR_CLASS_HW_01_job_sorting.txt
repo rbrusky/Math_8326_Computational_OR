@@ -1,0 +1,30 @@
+Becky Brusky
+
+Math 8326
+Computational OR
+Dr. Betty Love
+January 19, 2017
+
+Home work 1:
+
+Solver Description:
+
+The jobs will be sorted in order of Processing Time in ascending order.
+
+Using the sorted list of jobs calculate the completed date for each job.
+
+Determine the greatest Due Date.
+
+The jobs will be split into two groups.  The jobs that have a completed date on or before
+the greatest Due Date will be in the first group.  The remaining jobs will be in the second 
+group.
+
+The concept is to complete as many jobs on-time as possible.  So the first group will be
+sorted by due date.
+
+The need for the second group is to complete the jobs as fast as possible, because at this
+point all the jobs in the second group are considered to be late.  So the second group
+will remain sorted by ascending Processing Time.
+
+The two groups will be concatenated together and the total days of tardiness will be
+calculated.
